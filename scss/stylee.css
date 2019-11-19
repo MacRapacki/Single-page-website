@@ -24,8 +24,10 @@ body section {
   padding: 0;
 }
 
-section.container {
+header {
   position: relative;
+  width: 100%;
+  height: 100vh;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -33,7 +35,7 @@ section.container {
   overflow: hidden;
 }
 
-section.container nav {
+header nav {
   position: absolute;
   width: 100%;
   height: 90px;
@@ -52,7 +54,7 @@ section.container nav {
           animation: appear 1.2s ease 3.2s both;
 }
 
-section.container nav ul {
+header nav ul {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -68,11 +70,11 @@ section.container nav ul {
   padding: 0;
 }
 
-section.container nav ul li {
+header nav ul li {
   list-style: none;
 }
 
-section.container nav ul li a {
+header nav ul li a {
   display: block;
   position: relative;
   text-decoration: none;
@@ -83,7 +85,7 @@ section.container nav ul li a {
   transition: 0.3s linear;
 }
 
-section.container nav ul li a::before {
+header nav ul li a::before {
   content: "";
   position: absolute;
   height: 2px;
@@ -97,17 +99,17 @@ section.container nav ul li a::before {
   transition: 0.3s linear;
 }
 
-section.container nav ul li a:hover {
+header nav ul li a:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
 
-section.container nav ul li a:hover::before {
+header nav ul li a:hover::before {
   -webkit-transform: translateX(0);
           transform: translateX(0);
 }
 
-section.container div.name {
+header div.name {
   position: absolute;
   width: 450px;
   height: 180px;
@@ -119,15 +121,16 @@ section.container div.name {
   text-align: center;
 }
 
-section.container div.name p.front {
+header div.name p.front {
   margin: 0;
 }
 
-section.container div.name p.front span {
+header div.name p.front span {
   font-style: italic;
+  font-weight: 500px;
 }
 
-section.container figure {
+header figure {
   position: absolute;
   height: 400px;
   width: 400px;
@@ -145,11 +148,21 @@ section.container figure {
   background-color: black;
 }
 
-section.container figure img {
+header figure img {
   position: absolute;
   height: 100%;
   top: 0;
   left: 0;
+}
+
+header .meet-me {
+  position: absolute;
+  left: 50%;
+  top: 80%;
+  font-size: 24px;
+  -webkit-transform: translatex(-50%);
+          transform: translatex(-50%);
+  text-align: center;
 }
 
 section.about {
