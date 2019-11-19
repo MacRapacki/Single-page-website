@@ -1,0 +1,169 @@
+html {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1200px;
+}
+
+body section {
+  width: 100%;
+  height: 100vh;
+  margin: 35px auto;
+  background-color: white;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+section.container {
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow: hidden;
+}
+
+section.container nav {
+  position: absolute;
+  width: 100%;
+  height: 90px;
+  left: 0;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-animation: appear 1.2s ease 3.2s both;
+          animation: appear 1.2s ease 3.2s both;
+}
+
+section.container nav ul {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+section.container nav ul li {
+  list-style: none;
+}
+
+section.container nav ul li a {
+  display: block;
+  position: relative;
+  text-decoration: none;
+  font-size: 30px;
+  overflow: hidden;
+  color: black;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+section.container nav ul li a::before {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  right: 0;
+  bottom: -1px;
+  background-color: black;
+  -webkit-transform: translateX(-110%);
+          transform: translateX(-110%);
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+section.container nav ul li a:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+section.container nav ul li a:hover::before {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+section.container div.name {
+  position: absolute;
+  width: 450px;
+  height: 180px;
+  top: 65%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  font-size: 40px;
+  text-align: center;
+}
+
+section.container div.name p.front {
+  margin: 0;
+}
+
+section.container div.name p.front span {
+  font-style: italic;
+}
+
+section.container figure {
+  position: absolute;
+  height: 400px;
+  width: 400px;
+  top: 16%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  margin: 0;
+  padding: 0;
+  -webkit-animation: appear 1.4s 0.5s linear both;
+          animation: appear 1.4s 0.5s linear both;
+  border: 3px solid black;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: black;
+}
+
+section.container figure img {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+section.about {
+  position: relative;
+  background-color: #f2f2f2;
+}
+
+p.aboutme {
+  position: absolute;
+  display: block;
+  width: 400px;
+  height: 300px;
+  left: 25%;
+  top: 25%;
+  font-size: 25px;
+}
+/*# sourceMappingURL=stylee.css.map */

@@ -1,0 +1,14 @@
+section.about {
+    position: relative;
+    background-color: rgb(242, 242, 242)
+}
+
+p.aboutme {
+    position: absolute;
+    display: block;
+    width: 400px;
+    height: 300px;
+    left: 25%;
+    top: 25%;
+    font-size: 25px;
+}
