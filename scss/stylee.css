@@ -111,23 +111,33 @@ header nav ul li a:hover::before {
 
 header div.name {
   position: absolute;
-  width: 450px;
-  height: 180px;
+  width: 650px;
+  height: 150px;
   top: 65%;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  font-size: 40px;
+  font-size: 25px;
   text-align: center;
+}
+
+header div.name h1 {
+  margin: 0;
+  padding: 0 0 20px 0;
+  font-size: 50px;
+}
+
+header div.name h1 img {
+  height: 45px;
 }
 
 header div.name p.front {
   margin: 0;
+  font-size: 30px;
 }
 
 header div.name p.front span {
   font-style: italic;
-  font-weight: 500px;
 }
 
 header figure {
@@ -140,8 +150,6 @@ header figure {
           transform: translateX(-50%);
   margin: 0;
   padding: 0;
-  -webkit-animation: appear 1.4s 0.5s linear both;
-          animation: appear 1.4s 0.5s linear both;
   border: 3px solid black;
   border-radius: 50%;
   overflow: hidden;
@@ -153,16 +161,24 @@ header figure img {
   height: 100%;
   top: 0;
   left: 0;
+  margin: 0;
+  padding: 0;
 }
 
 header .meet-me {
   position: absolute;
   left: 50%;
-  top: 80%;
-  font-size: 24px;
+  top: 85%;
+  font-size: 30px;
   -webkit-transform: translatex(-50%);
           transform: translatex(-50%);
   text-align: center;
+}
+
+header .meet-me img {
+  height: 30px;
+  -webkit-transform: translateY(10px);
+          transform: translateY(10px);
 }
 
 section.about {

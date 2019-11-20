@@ -91,21 +91,35 @@ header {
 
     div.name {
         position: absolute;
-        width: 450px;
-        height: 180px;
+        width: 650px;
+        height: 150px;
         top: 65%;
         left: 50%;
         transform: translateX(-50%);
-        font-size: 40px;
+        font-size: 25px;
         text-align: center;
+
         // line-height: 280px;
         // transform: translateY(500px);
         // scale: 0;
         // opacity: 0;
         // animation: move 2s 1.5s ease-out both;
 
+        h1 {
+            margin: 0;
+            padding: 0 0 20px 0;
+            font-size: 50px;
+            // padding-bottom: 10px;
+
+            img {
+                height: 45px;
+            }
+        }
+
         p.front {
             margin: 0;
+            font-size: 30px;
+
 
             span {
                 font-style: italic;
@@ -123,7 +137,7 @@ header {
         margin: 0;
         padding: 0;
         // opacity: 0;
-        animation: appear 1.4s 0.5s linear both;
+        // animation: appear 1.4s 0.5s linear both;
         border: 3px solid black;
         border-radius: 50%;
         overflow: hidden;
@@ -132,8 +146,11 @@ header {
         img {
             position: absolute;
             height: 100%;
+            // width: 100%;
             top: 0;
             left: 0;
+            margin: 0;
+            padding: 0;
         }
     }
 
@@ -142,10 +159,15 @@ header {
         // width: 300px;
         // height: 100px;
         left: 50%;
-        top: 80%;
-        font-size: 24px;
+        top: 85%;
+        font-size: 30px;
         transform: translatex(-50%);
         text-align: center;
+
+        img {
+            height: 30px;
+            transform: translateY(10px);
+        }
     }
 }
 
