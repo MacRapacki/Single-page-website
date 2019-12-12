@@ -25,10 +25,24 @@ body section {
 }
 
 body section h2 {
+  position: relative;
   width: 100%;
   text-align: center;
   padding-top: 30px;
+  padding-bottom: 20px;
   font-size: 30px;
+}
+
+body section h2::before {
+  content: " ";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  width: 300px;
+  height: 1.5px;
+  background-color: black;
 }
 
 header {
@@ -188,7 +202,7 @@ header .meet-me img {
           transform: translateY(10px);
 }
 
-section.about {
+.about {
   position: relative;
   background-color: #f2f2f2;
   display: -webkit-box;
@@ -203,18 +217,19 @@ section.about {
       justify-content: space-around;
 }
 
-section.about div {
+.about div {
+  position: relative;
   width: 40%;
   height: 40%;
-  border: 2px solid black;
   overflow: hidden;
 }
 
-section.about div img {
-  position: relative;
+.about div img {
+  position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+  height: 100%;
 }
 /*# sourceMappingURL=stylee.css.map */
