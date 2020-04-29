@@ -19,11 +19,49 @@
 
         .skill {
             width: 400px;
-            height: 400px;
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
 
             img {
                 width: 400px;
                 height: 400px;
+            }
+
+            p {
+                font-size: 20px;
+                margin: 0;
+
+            }
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .skills {
+        p {
+            text-align: center;
+            font-size: 22px;
+            margin-top: 50px;
+        }
+
+        .skill-set {
+
+            .skill {
+                width: 120px;
+                height: 140px;
+
+                img {
+                    width: 120px;
+                    height: 120px;
+                }
+
+                p {
+                    font-size: 16px;
+                }
             }
         }
     }

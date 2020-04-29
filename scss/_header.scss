@@ -86,7 +86,7 @@ header {
                     font-size: 30px;
                     overflow: hidden;
                     color: black;
-                    transition: 0.3s linear;
+                    transition: 0.2s linear;
 
                     &::before {
                         content: "";
@@ -97,11 +97,11 @@ header {
                         bottom: -1px;
                         background-color: black;
                         transform: translateX(-110%);
-                        transition: 0.3s linear;
+                        transition: 0.2s linear;
                     }
 
                     &:hover {
-                        transform: scale(1.1);
+                        transform: scale(1.05);
                     }
 
                     &:hover::before {
@@ -216,13 +216,59 @@ header {
 //     }
 // }
 
-// @media (max-width: 400px) {
-//     a {
-//         font-size: 15px;
-//     }
+@media (max-width: 400px) {
+    header {
 
-//     h1 {
-//         margin-bottom: 30px;
-//         font-size: 20px;
-//     }
-// }
+        nav {
+
+            ul {
+                li {
+                    a {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+
+        div.name {
+
+            top: 63%;
+
+            h1 {
+                font-size: 23px;
+
+                img {
+                    height: 45px;
+                }
+            }
+
+            p.front {
+                margin: 0;
+                font-size: 20px;
+
+
+                span {
+                    font-style: italic;
+                }
+            }
+        }
+
+        figure {
+
+            height: 250px;
+            width: 250px;
+            top: 16%;
+            left: 50%;
+
+
+        }
+
+        .meet-me {
+            left: 50%;
+            top: 88%;
+            font-size: 20px;
+
+
+        }
+    }
+}
