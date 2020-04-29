@@ -1,11 +1,12 @@
 .skills {
+    height: 80vh;
     overflow: hidden;
     display: flex;
     flex-direction: column;
 
     p {
         text-align: center;
-        font-size: 50px;
+        // font-size: 50px;
         margin-top: 100px;
     }
 

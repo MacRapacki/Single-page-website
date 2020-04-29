@@ -1,0 +1,28 @@
+.projects {
+    height: 100%;
+    // width: 80%;
+    margin: 0 auto;
+    background-color: rgb(242, 242, 242);
+
+    p {
+        text-align: center;
+        font-size: 50px;
+        margin-top: 100px;
+    }
+
+    figure {
+        // height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+
+        img {
+            object-fit: cover;
+            // height: 60%;
+            width: 80%;
+            margin-bottom: 80px;
+
+        }
+    }
+}

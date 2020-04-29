@@ -13,6 +13,9 @@
         height: 40%;
         // border: 2px solid black;
         overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
         img {
             position: absolute;
@@ -23,6 +26,13 @@
             height: 100%;
         }
     }
+}
+
+.introduce,
+.story {
+    font-size: 22px;
+    text-align: center;
+
 }
 
 // p.aboutme {
