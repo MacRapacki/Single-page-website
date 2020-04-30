@@ -1,4 +1,20 @@
 p {
-    // font-size: 30px;
+    font-size: 30px;
     text-align: center;
+}
+
+@media (max-width: 620px) {
+    .contact {
+        p {
+            font-size: 26px;
+        }
+    }
+}
+
+@media (max-width: 420px) {
+    .contact {
+        p {
+            font-size: 22px;
+        }
+    }
 }

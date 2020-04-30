@@ -27,7 +27,17 @@
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 620px) {
+    .projects {
+
+        p {
+            font-size: 35px;
+            margin-top: 50px;
+        }
+    }
+}
+
+@media (max-width: 420px) {
     .projects {
 
         p {
