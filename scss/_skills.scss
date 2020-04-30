@@ -1,5 +1,5 @@
 .skills {
-    height: 80vh;
+    height: 90vh;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -40,11 +40,38 @@
     }
 }
 
+@media (max-width: 1020px) {
+    .skills {
+        p {
+            text-align: center;
+            font-size: 28px;
+            margin-top: 50px;
+        }
+
+        .skill-set {
+
+            .skill {
+                width: 400px;
+                height: 500px;
+
+                img {
+                    width: 250px;
+                    height: 250px;
+                }
+
+                p {
+                    font-size: 19px;
+                }
+            }
+        }
+    }
+}
+
 @media (max-width: 620px) {
     .skills {
         p {
             text-align: center;
-            font-size: 22px;
+            font-size: 25px;
             margin-top: 50px;
         }
 
