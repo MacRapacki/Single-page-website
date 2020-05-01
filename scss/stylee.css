@@ -898,8 +898,10 @@ footer div a {
 
 @media (max-width: 420px) {
   .contact p {
-    font-size: 22px;
+    font-size: 16px;
     padding: 0 20px;
+    margin-bottom: 16px;
+    margin-top: 0;
   }
   .contact .wrapper .details {
     -webkit-box-orient: vertical;
@@ -911,13 +913,13 @@ footer div a {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
-    font-size: 18px;
+    font-size: 14px;
   }
   .contact .wrapper .details .detail {
     margin-left: 13%;
   }
   .contact .wrapper .details i {
-    font-size: 30px;
+    font-size: 24px;
     padding: 0 30px;
   }
   .contact .wrapper figure {
@@ -933,7 +935,7 @@ footer div a {
             justify-content: center;
     margin: 30;
     height: 100%;
-    width: 80%;
+    width: 70%;
     overflow: hidden;
   }
 }
