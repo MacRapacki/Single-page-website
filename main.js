@@ -5,3 +5,6 @@ $('.skill-set ').slick({
     autoplaySpeed: 1200,
     arrows: false,
 });
+
+
+AOS.init();

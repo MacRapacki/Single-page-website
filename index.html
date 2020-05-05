@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Single page website</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="scss/stylee.css">
     <link rel="stylesheet" type="text/css" href="slick/slick/slick.css" />
 </head>
@@ -30,7 +31,7 @@
         </figure>
         <p class="meet-me"> Get to know me <img src="icons/curve-down-arrow.svg" alt="arrow"></p>
     </header>
-    <section id="about" class="about">
+    <section id="about" class="about" data-aos="flip-left">
         <h2>About me</h2>
         <div class="introduce">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quos ut libero
             repellendus perspiciatis veritatis rerum pariatur quia fugiat laborum eum, voluptates provident sapiente
@@ -43,7 +44,7 @@
 
     </section>
 
-    <section id="skills" class="skills">
+    <section id="skills" class="skills" data-aos="flip-right">
         <h2>Skills</h2>
         <p>This is what i think i know:</p>
         <div class="skill-set">
@@ -66,12 +67,12 @@
         </div>
     </section>
 
-    <section id="projects" class="projects">
+    <section id="projects" class="projects" data-aos="flip-up">
         <h2>Projects</h2>
         <p>Work in progres.</p>
         <figure><img src="/Single-page-website/img/tools-864983_1920.jpg" alt=""></figure>
     </section>
-    <section id="contact" class="contact">
+    <section id="contact" class="contact" data-aos="flip-down">
         <h2>Contact</h2>
         <p>If you want to contact with me, have any questions or maybe You want to help me develop, write to me.</p>
         <div class="wrapper">
@@ -120,6 +121,7 @@
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="slick/slick/slick.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="main.js"></script>
 </body>
 
